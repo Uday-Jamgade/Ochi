@@ -3,6 +3,8 @@ import Navbar from './components/Navbar';
 import Landing from './components/Landing';
 import Marque from './components/Marque';
 import About from './components/About';
+import Eyes from './components/Eyes';
+import Feature from './components/Feature';
 
 function App() {
   return (
@@ -11,6 +13,8 @@ function App() {
      <Landing/>
      <Marque/>
      <About/>
+     <Eyes/>
+     <Feature/>
     </div>
   )
 }
