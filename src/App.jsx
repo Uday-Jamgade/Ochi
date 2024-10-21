@@ -5,6 +5,10 @@ import Marque from './components/Marque';
 import About from './components/About';
 import Eyes from './components/Eyes';
 import Feature from './components/Feature';
+import Cards from './components/cards';
+import Footer from './components/Footer';
+import Project from './components/Project';
+
 
 function App() {
   return (
@@ -15,6 +19,9 @@ function App() {
      <About/>
      <Eyes/>
      <Feature/>
+     <Cards/>
+     <Project/>
+     <Footer/>
     </div>
   )
 }
